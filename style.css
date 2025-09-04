@@ -1,0 +1,21 @@
+:root{
+  --bg:#0b2b57; --muted:#9aa7bf; --accent:#0072ce; --danger:#e74c3c; --success:#28a745;
+}
+*{box-sizing:border-box;font-family:Segoe UI,Roboto,Arial,sans-serif}
+body{margin:0;background:#05213f;color:#fff}
+.container{max-width:480px;margin:0 auto;padding:20px}
+h1{margin:0 0 20px;font-size:22px}
+.card{background:#0b2b57;border-radius:12px;padding:20px;box-shadow:0 6px 20px rgba(0,0,0,0.4)}
+.input{width:100%;padding:12px;border-radius:8px;border:1px solid #1e3e6f;background:#04142a;color:#fff;margin-bottom:12px}
+.btn{display:inline-block;width:100%;padding:12px;border:none;border-radius:8px;background:var(--accent);color:#fff;font-weight:bold;cursor:pointer;margin-top:6px}
+.btn.secondary{background:#1e3e6f}
+.error{color:var(--danger);margin:8px 0;font-size:14px}
+.balance{font-size:22px;font-weight:700}
+.tx{background:#04142a;border-radius:8px;padding:10px;margin-bottom:8px;display:flex;justify-content:space-between;align-items:center}
+.tx .amount{font-weight:bold}
+.status{font-size:12px;padding:4px 8px;border-radius:999px}
+.status.success{background:rgba(40,167,69,.15);color:var(--success)}
+.status.declined{background:rgba(231,76,60,.15);color:var(--danger)}
+.actions{display:flex;gap:8px;margin-top:12px;flex-wrap:wrap}
+.actions .btn{flex:1}
+.logout{margin-top:20px;text-align:center}
